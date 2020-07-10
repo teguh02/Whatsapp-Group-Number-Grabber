@@ -1,0 +1,20 @@
+{
+  "name": "Whatsapp Groups Number Graber",
+  "version": "1.0",
+  "description": "Whatsapp Groups Number Graber",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "manifest_version": 2
+}

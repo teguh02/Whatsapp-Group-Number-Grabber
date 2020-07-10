@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .frame {
+            width: 200px;
+            background-color: white;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            
+        }
+
+        .button {
+            width: 100%;
+            background-color: #4caf50;
+            padding: 8px;
+            color: white;
+            margin-bottom: 5px;
+            border: 0px !important;
+        }
+
+        .button:hover {
+            background-color: #3e8e41 !important;
+        }
+
+        .button :active {
+            background-color: #367c39 !important;
+        }
+
+        .reportBtn, .reportBtn a {
+            text-align: center; 
+            text-decoration: none;
+            margin-top: 3px;
+            color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        Caranya :
+        <ol>
+            <li>Pertama tekan tombol buka whatsapp web</li>
+            <li>Scan kode QR jika kamu belum pernah melakukan sebelumnya</li>
+            <li>Pilih grup whatsapp yang diinginkan</li>
+            <li>Tekan tombol Ambil Nomor</li>
+        </ol>
+
+        <br>
+
+        <button id="openWaWeb" class="button">
+            Buka Whatsapp Web
+        </button>
+
+        <button id="getNumber" class="button">
+            Ambil Nomor
+        </button>
+
+        <div class="reportBtn">
+            <small>
+                <a href="">
+                    Laporkan Bug
+                </a>
+            </small>
+        </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
